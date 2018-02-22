@@ -60,4 +60,12 @@ class SnippetsController extends Controller
 
         return redirect()->home();
     }
+    public function destroy(Snippet $snippet)
+    {
+        foreach ($snippet->forks as $fork) {
+            Snippet::find($fork->id)->delete();
+        }
+        $snippet->delete();
+        return redirect()->back();
+    }
 }
