@@ -181,24 +181,24 @@ TEXT;
   ];
   const USERS = [
     [
-      'name' => 'Sumon',
-      'email' => 'sumon@gmail.com'
+      'name' => 'arafat',
+      'email' => 'arafat@gmail.com'
     ],
     [
-      'name' => 'Sarwar',
-      'email' => 'sarwar@gmail.com'
+      'name' => 'nur',
+      'email' => 'nur@gmail.com'
     ],
     [
-      'name' => 'Mojibur',
-      'email' => 'mojibur@gmail.com'
+      'name' => 'tahmina',
+      'email' => 'tahmina@gmail.com'
     ],
     [
-      'name' => 'Tanim',
-      'email' => 'tanim@gmail.com'
+      'name' => 'farhana',
+      'email' => 'farhana@gmail.com'
     ],
     [
-      'name' => 'Riazul Hayder',
-      'email' => 'riaz@gmail.com'
+      'name' => 'sakhawat',
+      'email' => 'sakhawat@gmail.com'
     ]
   ];
 }
